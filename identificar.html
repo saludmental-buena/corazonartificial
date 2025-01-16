@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <title>Estados Emocionales</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="identficar.js"></script>
+
+</head>
+<body>
+ <div class="container">
+        <button id="logout" class="glyphicon glyphicon-log-out  btn btn-danger" onclick="regresar()">Regresar</button>
+        </div>
+        <center>
+            <p><strong>Me doy cuenta de mis sentimientos en diferentes situaciones</strong></p>
+            <br>
+                <li><input type="radio" name="pregunta1" id=A> Si </li>
+                <br>
+                <li><input type="radio" name="pregunta1" id=B> No </li>
+                <br>
+                <br>
+                <p><strong>Puedo decir como me siento</strong></p>
+                <li><input type="radio" name="pregunta2" id=A> Si </li>
+                <br>
+                <li><input type="radio" name="pregunta2" id=B> No </li>
+                <br>
+                <br>
+                <p><strong>Puedo decir cuáles son mis emociones</strong></p>
+                <li><input type="radio" name="pregunta3" id=A> Si </li>
+                <br>
+                <li><input type="radio" name="pregunta3" id=B> No </li>
+                <br>
+                <br>
+                <p><strong>Comprendo mis sentimientos</strong></p>
+                <li><input type="radio" name="pregunta4" id=A> Si </li>
+                <br>
+                <li><input type="radio" name="pregunta4" id=B> No </li>
+                <br>
+                <br>
+                <p><strong>Aunque me sienta mal, procuro pensar en cosas agradables</strong></p>
+                <li><input type="radio" name="pregunta5" id=A> Si </li>
+                <br>
+                <li><input type="radio" name="pregunta5" id=B> No </li>
+                <br>
+                <br>
+                <p><strong>Tengo mucha energía cuando me siento feliz</strong></p>
+                <li><input type="radio" name="pregunta6" id=A> Si </li>
+                <br>
+                <li><input type="radio" name="pregunta6" id=B> No </li>
+                <br>
+                <br>
+                <button id="enviar" class="btn btn-secundary" onclick="enviar()">Enviar</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+        </center>
+</body>
+</html>
