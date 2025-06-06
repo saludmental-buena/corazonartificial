@@ -9,17 +9,7 @@ function User(){
 document.getElementById('corazon').addEventListener('submit', function(event) {
     // Obtener el valor del input
     const nombreInput = document.getElementById('User');
-
-    // Verificar si el input está vacío
-    if (nombreInput.value.trim() === '') {
-        // Prevenir que el formulario se envíe
-        event.preventDefault();
-
-        // Mostrar un mensaje de advertencia
-        alert('Por favor, rellena el campo de nombre, Gracias :)');
-        // Esto lo escribo por si acaso ekisde
-        // Recalco que esto no funciona en dispositivos moviles y aveces funciona en computadora
-    }
+  
     // Todas estas funciones son solo para los botones que redirigen a una zona de la pagina en especifico
 });
 function salir(){
