@@ -5,6 +5,10 @@ Webcam.set({
     jpg_quality: 90
 })
 
+window.onload = function() {
+    Webcam.attach('#camera');
+}
+
 var Predict1 = "";
 var Predict2 = "";
 
